@@ -1,14 +1,27 @@
-# Awesome-Retail-Media-Network-Platform
+# Awesome Retail Media Network Platform 🛒✨
 
-# 🛒 Top Retail Media Network Platforms & Open-Source Retail Media Infrastructure
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Retail Media Network Platform Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retail-Media-Network-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Retail-Media-Network-Platform?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retail-Media-Network-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Retail-Media-Network-Platform?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retail-Media-Network-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-> A curated list of **Retail Media Network (RMN) platforms, commerce media infrastructure, retail advertising APIs, sponsored-product platforms, ad servers, auction engines, audience activation systems and open-source software** for building modern retail media businesses.
+# 🛒 Top Retail Media Network Platforms & Open-Source Retail Media Infrastructure 🚀
 
+> ⚡ A comprehensive, battle-tested curated list of **Retail Media Network (RMN) platforms, commerce media infrastructure, retail advertising APIs, sponsored products engines, ad servers, auction engines, audience activation CDPs and open-source software** for modern omni-channel commerce media.
 
+Retail Media Networks (RMNs) allow retailers, marketplaces, grocery delivery apps, and commerce platforms to monetize their **first-party shopper data, digital inventory, search listings, and physical in-store retail environments** by enabling consumer brands to advertise directly at the digital point of purchase.
 
-Retail Media Networks allow retailers, marketplaces and commerce platforms to monetize their **first-party shopper data, digital inventory and physical retail environments** by enabling brands to advertise close to the point of purchase.
+**Keywords / SEO Topics:** `retail-media-network`, `commerce-media`, `sponsored-products`, `retail-ad-server`, `prebid-server`, `openrtb`, `clickhouse-adtech`, `shopper-audiences`, `first-party-data`, `in-store-media`, `retail-advertising-api`
 
 
 
@@ -132,55 +145,31 @@ This repository focuses primarily on **open-source building blocks for construct
 
 
 
-# ☁️ SaaS/Hosted Platforms
+# ☁️ SaaS/Hosted Platforms 🏢
 
+> 🌐 **Market Size & Industry Structure:** The global Retail Media Network (RMN) sector is currently estimated at **$140+ billion annually** (projected to surpass **$175 billion by 2028**, representing over ~20% of all digital ad spend). The industry exhibits a **bifurcated, winner-take-most concentration** at the retailer tier—where Amazon Ads, Walmart Connect, and Instacart command over 75% of western retail media spend—alongside a **moderately fragmented vendor technology tier** where independent ad-tech enablers (Kevel, Topsort, Criteo, CitrusAd/Epsilon, Mirakl, Koddi, Zitcha) compete aggressively to power the remaining thousands of regional grocery chains, specialty marketplaces, and emerging retail media networks.
 
-
-Commercial RMN platforms provide combinations of ad serving, sponsored listings, campaign management, audience activation, optimization and measurement.
-
-
-
-| Platform                                                                                                 | Company    | Primary Focus                        | Key Capabilities                                                                 |
-
-| -------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------ | -------------------------------------------------------------------------------- |
-
-| [CitrusAd / Epsilon Retail Media](https://www.epsilon.com/us/products-and-services/retail-media-network) | Epsilon    | Retail Media                         | Sponsored products, onsite display, brand pages, offsite activation, measurement |
-
-| [Criteo Retail Media](https://www.criteo.com/solutions/retail-media/)                                    | Criteo     | Commerce Media                       | Retailer monetization, audiences, onsite/offsite advertising, measurement        |
-
-| [PromoteIQ](https://www.promoteiq.com/)                                                                  | Microsoft  | Retail Media                         | Sponsored products, retailer media, campaign management                          |
-
-| [Kevel](https://www.kevel.com/)                                                                          | Kevel      | API-first ad infrastructure          | Ad serving, decisioning, audiences, forecasting, reporting                       |
-
-| [Koddi](https://www.koddi.com/)                                                                          | Koddi      | Commerce Media                       | Sponsored products, retail media, marketplaces, optimization                     |
-
-| [Skai](https://skai.io/retail-media-solutions/)                                                          | Skai       | Retail Media Management              | Cross-retailer campaign management, optimization, measurement                    |
-
-| [Moloco Commerce Media](https://www.moloco.com/commerce-media)                                           | Moloco     | Commerce Media                       | ML-powered advertising, sponsored products, audience optimization                |
-
-| [Mirakl Ads](https://www.mirakl.com/)                                                                    | Mirakl     | Marketplace / Retail Media           | Marketplace monetization and advertising                                         |
-
-| [Zitcha](https://www.zitcha.com/)                                                                        | Zitcha     | Retail Media OS                      | Planning, activation, inventory, optimization, reporting                         |
-
-| [Epsilon Retail Media](https://www.epsilon.com/us/products-and-services/retail-media-network)            | Epsilon    | Full-service RMN                     | Identity, AI-powered data, onsite/offsite media and measurement                  |
-
-| [Topsort](https://www.topsort.com/)                                                                      | Topsort    | Commerce monetization infrastructure | Ad server APIs, auctions, sponsored listings, display, offsite, in-store         |
-
-| [CitrusAd](https://www.citrusad.com/)                                                                    | Epsilon    | Onsite Retail Media                  | Sponsored products, onsite display, brand pages                                  |
-
-| [Amazon Ads](https://advertising.amazon.com/)                                                            | Amazon     | Retail Advertising                   | Sponsored Products, Sponsored Brands, DSP, retail audiences                      |
-
-| [Walmart Connect](https://www.walmartconnect.com/)                                                       | Walmart    | Retail Media                         | Sponsored products, display, offsite, measurement                                |
-
-| [Instacart Ads](https://ads.instacart.com/)                                                              | Instacart  | Commerce Media                       | Sponsored products, display, retail audiences                                    |
-
-| [Roundel](https://roundel.com/)                                                                          | Target     | Retail Media                         | Onsite, offsite, in-store and audience activation                                |
-
-| [Albertsons Media Collective](https://www.albertsonsmediacollective.com/)                                | Albertsons | Retail Media                         | Sponsored products, display, offsite and measurement                             |
-
-| [Carrefour Links](https://www.carrefour.com/en/carrefour-links)                                          | Carrefour  | Retail Media                         | Retailer audiences, onsite/offsite media                                         |
-
-| [Kroger Precision Marketing](https://www.krogerprecisionmarketing.com/)                                  | Kroger     | Retail Media                         | Shopper audiences, sponsored products, measurement                               |
+| Platform | Company | Company Scale (Revenue / Valuation) | Primary Focus | Key Capabilities | Pricing | Free Tier Limits |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Amazon Ads](https://advertising.amazon.com/) | Amazon | ~$2.0T Market Cap (~$47B/yr ad revenue) | Retail Advertising | Sponsored Products, Sponsored Brands, DSP, retail audiences | Starting at $0.02/click CPC ($1.00/day minimum campaign budget); managed service requires $50,000 minimum spend | Free forever account access (no recurring platform fees; pay solely for ad clicks); periodic $50-$100 new advertiser ad credit promotions |
+| [PromoteIQ](https://www.promoteiq.com/) | Microsoft | ~$3.1T Market Cap (~$12B/yr ad division) | Retail Media | Sponsored products, retailer media, campaign management | Starting at $0.15/click CPC; enterprise retailer license starts at ~$5,000/month platform fee | No free trial; enterprise product demo and guided sandbox testing on consultation |
+| [Walmart Connect](https://www.walmartconnect.com/) | Walmart | ~$550B Market Cap (~$3.4B/yr ad revenue) | Retail Media | Sponsored products, display, offsite, measurement | Starting at $0.20/click CPC ($5.00/day minimum campaign budget for Sponsored Products; $0.50/click for Sponsored Brands) | Free forever platform access within Walmart Seller Center (no subscription/access fees; pay only for clicks); periodic $100-$500 promo ad credits |
+| [Kroger Precision Marketing](https://www.krogerprecisionmarketing.com/) | Kroger | ~$40B Market Cap (~$1.2B/yr media revenue) | Retail Media | Shopper audiences, sponsored products, measurement | Starting at $25,000/month minimum ad spend for managed programs (or standard programmatic CPC/CPM via DSP seat integrations) | No free trial; self-serve activation available via The Trade Desk DSP with no upfront Kroger software subscription fee |
+| [Roundel](https://roundel.com/) | Target | ~$65B Market Cap (~$1.5B/yr ad revenue) | Retail Media | Onsite, offsite, in-store and audience activation | Starting at $0.25/click CPC via Roundel Media Studio self-serve (no minimum spend requirement or DSP fees) | Free forever platform access for qualified Target suppliers (no monthly SaaS license fee; pay per click) |
+| [Albertsons Media Collective](https://www.albertsonsmediacollective.com/) | Albertsons | ~$12B Market Cap (~$500M/yr media revenue) | Retail Media | Sponsored products, display, offsite and measurement | Starting at $25,000/quarter minimum ad spend commitment (~$8,333/month) | No free trial; access requires active Albertsons retail vendor distribution agreement |
+| [Carrefour Links](https://www.carrefour.com/en/carrefour-links) | Carrefour | ~$11B Market Cap (~€400M/yr media revenue) | Retail Media | Retailer audiences, onsite/offsite media | Starting at €10,000/campaign minimum partner media commitment (~$10,800) | No free trial; access restricted to qualified FMCG suppliers with joint business partnerships |
+| [Instacart Ads](https://ads.instacart.com/) | Instacart | ~$9B Market Cap (~$870M/yr ad revenue) | Commerce Media | Sponsored products, display, retail audiences | Starting at $0.15/click CPC for Sponsored Products; $15.00 CPM minimum for display ads (no minimum monthly platform fee) | Free forever account access (zero setup or subscription fees); $100 promotional ad credit offered to new onboarding advertisers |
+| [Epsilon Retail Media](https://www.epsilon.com/us/products-and-services/retail-media-network) | Publicis Groupe (Epsilon) | ~$25B Market Cap (Parent) / $4.4B acquisition | Full-service RMN | Identity, AI-powered data, onsite/offsite media and measurement | Starting at $5,000/month base platform & identity graph licensing | No free trial; interactive vendor demo and technical scoping sessions available |
+| [CitrusAd / Epsilon Retail Media](https://www.epsilon.com/us/products-and-services/retail-media-network) | Publicis Groupe (Epsilon) | ~$25B Market Cap (Parent) / ~$150M acquisition | Retail Media | Sponsored products, onsite display, brand pages, offsite activation, measurement | Starting at $0.05/click (supplier self-serve auction CPC); enterprise retailer platform contracts start at ~$2,500/month | No free trial; custom sales-led demo and pilot sandbox provided upon qualification |
+| [CitrusAd](https://www.citrusad.com/) | Publicis Groupe (Epsilon) | ~$25B Market Cap (Parent) | Onsite Retail Media | Sponsored products, onsite display, brand pages | Starting at $0.05/click auction CPC for brands; $2,500/month minimum for standalone retailer ad-serving | No free trial; demo access and sandbox testing provided to registered retail partners |
+| [Mirakl Ads](https://www.mirakl.com/) | Mirakl | ~$3.5B Valuation ($160M+ ARR) | Marketplace / Retail Media | Marketplace monetization and advertising | Starting at $699/month (Mirakl Connect / Seller level); core enterprise marketplace & ads platform starts at $7,500/month ($90,000/year) + ~2% GMV fee | No free trial; guided demo and staging environment provisioned upon enterprise agreement |
+| [Criteo Retail Media](https://www.criteo.com/solutions/retail-media/) | Criteo | ~$2.4B Market Cap (~$1.0B/yr revenue) | Commerce Media | Retailer monetization, audiences, onsite/offsite advertising, measurement | Starting at $0.10/click CPC (self-serve campaigns); retailer tech platform fee starts at ~$3,000/month base | No free trial; self-serve signup has no platform subscription fee (pay only for media clicks) |
+| [Moloco Commerce Media](https://www.moloco.com/commerce-media) | Moloco | ~$2.0B Valuation (~$350M+ revenue) | Commerce Media | ML-powered advertising, sponsored products, audience optimization | Starting at $5,000/month minimum platform commitment (or ~10-15% of media spend via Cloud Marketplace) | No free trial; proof-of-concept / sandbox testing granted during enterprise onboarding |
+| [Skai](https://skai.io/retail-media-solutions/) | Skai | ~$600M Valuation (~$120M ARR) | Retail Media Management | Cross-retailer campaign management, optimization, measurement | Starting tier at $1,500/month (or ~2-3% of tracked media spend, whichever is greater) | 14-day guided pilot trial available upon sales qualification with full feature access |
+| [Koddi](https://www.koddi.com/) | Koddi | ~$250M Est. Valuation (~$50M ARR) | Commerce Media | Sponsored products, retail media, marketplaces, optimization | Starting at $2,500/month platform fee (plus ~3-5% media spend fee) | No free trial; guided sandbox environment available for qualified enterprise accounts |
+| [Kevel](https://www.kevel.com/) | Kevel | ~$150M Valuation ($30M+ raised) | API-first ad infrastructure | Ad serving, decisioning, audiences, forecasting, reporting | Starting tier at $3,000/month (base API tier); video ad serving from $0.00132/delivered minute | No free plan; guided sandbox access with API test keys available via sales consultation |
+| [Topsort](https://www.topsort.com/) | Topsort | ~$110M Valuation ($28M raised) | Commerce monetization infrastructure | Ad server APIs, auctions, sponsored listings, display, offsite, in-store | Starting tier at $500/month (covers up to 500k API calls, then $0.50/1k requests) | Free forever sandbox plan (unlimited test API requests, mock auctions, and onboarding call) |
+| [Zitcha](https://www.zitcha.com/) | Zitcha | ~$50M Valuation ($15M raised) | Retail Media OS | Planning, activation, inventory, optimization, reporting | Starting tier at $3,500/month platform fee | 30-day proof-of-concept trial environment upon initial enterprise onboarding |
 
 
 
@@ -324,19 +313,13 @@ Revive describes itself as an open-source ad-serving system for serving ads, man
 
 
 
-| Project                                                               | Description                               | License                   |
-
-| --------------------------------------------------------------------- | ----------------------------------------- | ------------------------- |
-
-| [Revive Adserver](https://github.com/revive-adserver/revive-adserver) | Open-source ad server                     | GPL-2.0-or-later          |
-
-| [Prebid Server](https://github.com/prebid/prebid-server)              | Server-side real-time auctions            | Apache-2.0                |
-
-| [Prebid.js](https://github.com/prebid/Prebid.js)                      | Client-side header bidding                | Apache-2.0                |
-
-| [OpenRTB](https://github.com/InteractiveAdvertisingBureau/openrtb2.x) | RTB protocol implementation/specification | Open-source specification |
-
-| [OpenX Source](https://github.com/openx)                              | Advertising infrastructure ecosystem      | Project-dependent         |
+| Project | Stars | Description | License |
+| --- | --- | --- | --- |
+| [Prebid.js](https://github.com/prebid/Prebid.js) | [![Stars](https://img.shields.io/github/stars/prebid/Prebid.js?style=social&color=white)](https://github.com/prebid/Prebid.js/stargazers) | Client-side header bidding & auction wrapper | Apache-2.0 |
+| [Revive Adserver](https://github.com/revive-adserver/revive-adserver) | [![Stars](https://img.shields.io/github/stars/revive-adserver/revive-adserver?style=social&color=white)](https://github.com/revive-adserver/revive-adserver/stargazers) | Open-source ad server and delivery engine | GPL-2.0-or-later |
+| [Prebid Server](https://github.com/prebid/prebid-server) | [![Stars](https://img.shields.io/github/stars/prebid/prebid-server?style=social&color=white)](https://github.com/prebid/prebid-server/stargazers) | High-performance Go server-side real-time auctions | Apache-2.0 |
+| [OpenRTB Specification](https://github.com/InteractiveAdvertisingBureau/openrtb2.x) | [![Stars](https://img.shields.io/github/stars/InteractiveAdvertisingBureau/openrtb2.x?style=social&color=white)](https://github.com/InteractiveAdvertisingBureau/openrtb2.x/stargazers) | Real-Time Bidding protocol specifications (IAB) | Open-source specification |
+| [OpenX Source](https://github.com/openx) | [![Stars](https://img.shields.io/github/stars/openx/OxRTB?style=social&color=white)](https://github.com/openx/OxRTB/stargazers) | Advertising exchange & RTB infrastructure ecosystem | Project-dependent |
 
 
 
@@ -612,29 +595,18 @@ Useful open-source building blocks include:
 
 
 
-| Project                                                        | Role                                   |
-
-| -------------------------------------------------------------- | -------------------------------------- |
-
-| [Apache Unomi](https://github.com/apache/unomi)                | Customer data / personalization        |
-
-| [GrowthBook](https://github.com/growthbook/growthbook)         | Experimentation and feature management |
-
-| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | Search / analytics / filtering         |
-
-| [Apache Spark](https://github.com/apache/spark)                | Large-scale data processing            |
-
-| [Apache Flink](https://github.com/apache/flink)                | Real-time stream processing            |
-
-| [Feast](https://github.com/feast-dev/feast)                    | Feature store                          |
-
-| [MLflow](https://github.com/mlflow/mlflow)                     | ML lifecycle                           |
-
-| [Apache Airflow](https://github.com/apache/airflow)            | Data pipelines                         |
-
-| [dbt Core](https://github.com/dbt-labs/dbt-core)               | Data transformation                    |
-
-| [Keycloak](https://github.com/keycloak/keycloak)               | Identity                               |
+| Project | Stars | Role | Description |
+| --- | --- | --- | --- |
+| [Apache Spark](https://github.com/apache/spark) | [![Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers) | Large-scale data processing | Distributed data processing engine for batch audience scoring |
+| [Apache Airflow](https://github.com/apache/airflow) | [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Workflow & data pipelines | Programmatic orchestrator for retail media audience DAGs |
+| [Keycloak](https://github.com/keycloak/keycloak) | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Identity & access management | Open-source IAM for brand advertiser portal authentication |
+| [Apache Flink](https://github.com/apache/flink) | [![Stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers) | Real-time stream processing | Low-latency stateful stream processing for real-time buyer signals |
+| [MLflow](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | ML lifecycle management | Experimentation, registry, and deployment for CTR prediction models |
+| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Search / filtering / analytics | Search engine for keyword targeting, filtering, and facets |
+| [dbt Core](https://github.com/dbt-labs/dbt-core) | [![Stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers) | Data transformation | SQL data modeling tool for shopper segmentation & GMV attribution |
+| [GrowthBook](https://github.com/growthbook/growthbook) | [![Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | Experimentation & feature management | Feature flagging and Bayesian A/B testing for ad placements |
+| [Feast](https://github.com/feast-dev/feast) | [![Stars](https://img.shields.io/github/stars/feast-dev/feast?style=social&color=white)](https://github.com/feast-dev/feast/stargazers) | Feature store | Production feature store for real-time shopper & SKU feature retrieval |
+| [Apache Unomi](https://github.com/apache/unomi) | [![Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers) | Customer data / CDP | Customer Data Platform for shopper profile aggregation and segmentation |
 
 
 

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a14" />
+      <stop offset="50%" stop-color="#0c122b" />
+      <stop offset="100%" stop-color="#140a28" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glowing Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.08" />
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .pulsing-orb {
+      animation: pulse 4s ease-in-out infinite alternate;
+    }
+    .flow-line {
+      stroke-dasharray: 8 6;
+      animation: dash 12s linear infinite;
+    }
+    .badge-pop {
+      animation: float 5s ease-in-out infinite alternate;
+    }
+    .badge-pop-delayed {
+      animation: float 5s ease-in-out infinite alternate -2.5s;
+    }
+    .radar-sweep {
+      transform-origin: 600px 200px;
+      animation: spin 8s linear infinite;
+    }
+    @keyframes pulse {
+      0% { r: 160px; opacity: 0.25; }
+      100% { r: 240px; opacity: 0.45; }
+    }
+    @keyframes dash {
+      from { stroke-dashoffset: 200; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)" />
+
+  <!-- Grid overlay -->
+  <rect width="1200" height="400" fill="url(#cyberGrid)" />
+
+  <!-- Ambient glowing blobs -->
+  <circle class="pulsing-orb" cx="200" cy="120" r="180" fill="#6366f1" opacity="0.3" filter="url(#glow)" />
+  <circle class="pulsing-orb" cx="1000" cy="280" r="210" fill="#a855f7" opacity="0.25" filter="url(#glow)" />
+  <circle class="pulsing-orb" cx="600" cy="360" r="150" fill="#0284c7" opacity="0.2" filter="url(#glow)" />
+
+  <!-- Circuit / Stream flow lines -->
+  <path class="flow-line" d="M -50 180 Q 300 80 600 200 T 1250 160" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.4" />
+  <path class="flow-line" d="M -50 260 Q 350 360 650 220 T 1250 240" fill="none" stroke="#c084fc" stroke-width="2" stroke-opacity="0.35" style="animation-direction: reverse;" />
+  <path class="flow-line" d="M 100 0 Q 350 180 600 420" fill="none" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.25" />
+
+  <!-- Top Decorative Header Tag -->
+  <g transform="translate(600, 58)" text-anchor="middle">
+    <rect x="-170" y="-16" width="340" height="32" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" filter="url(#glow)" />
+    <circle cx="-145" cy="0" r="5" fill="#34d399" />
+    <text x="5" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#93c5fd" letter-spacing="3">ENTERPRISE RETAIL MEDIA OS</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(600, 140)" text-anchor="middle">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="900" fill="url(#textGrad)" letter-spacing="-0.5" filter="url(#glow)">
+      Awesome Retail Media Network
+    </text>
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0" letter-spacing="1.5">
+      Platforms, Architecture &amp; Open-Source Infrastructure
+    </text>
+    <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#94a3b8" letter-spacing="0.5">
+      Sponsored Search • Header Bidding • Real-Time Auctions • SKU Attribution • Ad Decisioning
+    </text>
+  </g>
+
+  <!-- Architecture Building Blocks (Floating Badges) -->
+  <!-- Badge 1: Sponsored Products -->
+  <g class="badge-pop" transform="translate(120, 275)" filter="url(#cardShadow)">
+    <rect width="210" height="74" rx="14" fill="url(#cardBg)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.5" />
+    <circle cx="36" cy="37" r="20" fill="url(#cyanGrad)" />
+    <text x="36" y="43" text-anchor="middle" font-size="18" fill="#ffffff">🛒</text>
+    <text x="68" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Sponsored Ads</text>
+    <text x="68" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">Search &amp; Catalog Ranking</text>
+  </g>
+
+  <!-- Badge 2: Real-time Auctions -->
+  <g class="badge-pop-delayed" transform="translate(365, 275)" filter="url(#cardShadow)">
+    <rect width="210" height="74" rx="14" fill="url(#cardBg)" stroke="#fbbf24" stroke-width="1.2" stroke-opacity="0.5" />
+    <circle cx="36" cy="37" r="20" fill="url(#amberGrad)" />
+    <text x="36" y="43" text-anchor="middle" font-size="18" fill="#ffffff">⚡</text>
+    <text x="68" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Ad Decisioning</text>
+    <text x="68" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">Prebid &amp; OpenRTB Engine</text>
+  </g>
+
+  <!-- Badge 3: 1st Party Audience -->
+  <g class="badge-pop" transform="translate(615, 275)" filter="url(#cardShadow)">
+    <rect width="210" height="74" rx="14" fill="url(#cardBg)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.5" />
+    <circle cx="36" cy="37" r="20" fill="url(#purpleGrad)" />
+    <text x="36" y="43" text-anchor="middle" font-size="18" fill="#ffffff">🎯</text>
+    <text x="68" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Shopper Audiences</text>
+    <text x="68" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">CDP &amp; Feature Store</text>
+  </g>
+
+  <!-- Badge 4: OLAP Analytics -->
+  <g class="badge-pop-delayed" transform="translate(865, 275)" filter="url(#cardShadow)">
+    <rect width="210" height="74" rx="14" fill="url(#cardBg)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.5" />
+    <circle cx="36" cy="37" r="20" fill="url(#emeraldGrad)" />
+    <text x="36" y="43" text-anchor="middle" font-size="18" fill="#ffffff">📊</text>
+    <text x="68" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Real-Time OLAP</text>
+    <text x="68" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">ClickHouse &amp; Pinot ROAS</text>
+  </g>
+
+  <!-- Subtle bottom border glow -->
+  <rect x="0" y="396" width="1200" height="4" fill="url(#textGrad)" opacity="0.85" />
+</svg>
