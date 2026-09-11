@@ -313,7 +313,7 @@ Revive describes itself as an open-source ad-serving system for serving ads, man
 
 
 
-| Project | Stars | Description | License |
+| Project | Github_Stars | Description | License |
 | --- | --- | --- | --- |
 | [Prebid.js](https://github.com/prebid/Prebid.js) | [![Stars](https://img.shields.io/github/stars/prebid/Prebid.js?style=social&color=white)](https://github.com/prebid/Prebid.js/stargazers) | Client-side header bidding & auction wrapper | Apache-2.0 |
 | [Revive Adserver](https://github.com/revive-adserver/revive-adserver) | [![Stars](https://img.shields.io/github/stars/revive-adserver/revive-adserver?style=social&color=white)](https://github.com/revive-adserver/revive-adserver/stargazers) | Open-source ad server and delivery engine | GPL-2.0-or-later |
@@ -595,7 +595,7 @@ Useful open-source building blocks include:
 
 
 
-| Project | Stars | Role | Description |
+| Project | Github_Stars | Role | Description |
 | --- | --- | --- | --- |
 | [Apache Spark](https://github.com/apache/spark) | [![Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers) | Large-scale data processing | Distributed data processing engine for batch audience scoring |
 | [Apache Airflow](https://github.com/apache/airflow) | [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Workflow & data pipelines | Programmatic orchestrator for retail media audience DAGs |
